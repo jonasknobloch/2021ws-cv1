@@ -9,3 +9,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(exercise0 src/Ex0_Jonas_Knobloch.cpp)
 target_link_libraries(exercise0 ${OpenCV_LIBS})
+
+add_executable(exercise1 src/Ex1_Jonas_Knobloch.cpp)
+target_link_libraries(exercise1 ${OpenCV_LIBS})
